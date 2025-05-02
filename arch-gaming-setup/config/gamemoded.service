@@ -1,0 +1,8 @@
+[Unit]
+Description=GameMode
+
+[Service]
+ExecStart=/usr/bin/gamemoded
+
+[Install]
+WantedBy=default.target
